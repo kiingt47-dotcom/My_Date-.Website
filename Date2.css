@@ -1,0 +1,113 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+ .main
+ {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    float: left;
+ }
+
+ .h1
+ { text-align:center;
+padding-top: 40px;  
+margin: 0 auto;
+ }
+
+ button
+ {  margin-top: 20px;
+    height:60px;
+    width:100px;
+    color:white;
+    background-color: rgba(200, 13, 131, 0.986);
+    text-align: center;
+    font-weight:bolder;   
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20%;
+    cursor:pointer;
+}
+
+.b1
+ {  margin-top: 20px;
+    height:100px;
+    width:160px;
+    color:white;
+    background-color: rgba(200, 13, 131, 0.986);
+    text-align: center;
+    font-weight:bolder;   
+    font-size:x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20%;
+    cursor:pointer;
+}
+
+.teddy
+{
+    display: block;
+    margin: 0 auto;
+    padding-top: 75px;
+    height:250px;
+    
+}
+
+.floating-emojis {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.floating-emojis span {
+    position: absolute;
+    bottom: -50px;
+    font-size: 30px;
+    animation: floatUp 6s linear infinite;
+}
+
+.floating-emojis span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.floating-emojis span:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+}
+
+.floating-emojis span:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.floating-emojis span:nth-child(4) {
+    left: 70%;
+    animation-delay: 3s;
+}
+
+.floating-emojis span:nth-child(5) {
+    left: 90%;
+    animation-delay: 4s;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+}

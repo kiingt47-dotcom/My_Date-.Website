@@ -1,0 +1,63 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+}
+ *
+{
+    padding: 0%;
+    margin: 0%;
+}
+ .main
+ {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(190, 50, 90);
+    float: left;
+ }
+
+ .m1
+ { text-align:center;
+padding-top: 40px;  
+margin: 0 auto;
+color: white;
+text-shadow:
+        2px 2px 0 rgb(70, 0, 20),
+        -2px -2px 0 rgb(70, 0, 20),
+        2px -2px 0 rgb(70, 0, 20),
+        -2px 2px 0 rgb(70, 0, 20);
+ }
+ 
+
+ .teddy
+ { 
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 75px;
+ }
+  button
+  {
+    height: 80px;
+    width: 190px;
+    text-align: center;
+    text-decoration:white;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color:rgb(255, 245, 249);
+    border-radius: 45px;
+    cursor:pointer;
+  }
+
+  #date{
+    color: black;
+    height: 40px;
+    width: 350px;
+    border-radius: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+  }

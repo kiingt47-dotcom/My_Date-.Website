@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 50, 90);
+    min-height: 100vh;
+}
+
+.yay-page {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.yay-page h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.yay-page h2 {
+    color: white;
+    margin-top: 15px;
+}
+
+.couple-gif {
+    width: 220px;
+    margin: 25px;
+}
+
+.yay-page p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.yay-page button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid rgb(128, 0, 32);
+    background-color: rgb(255, 192, 203);
+    color: rgb(128, 0, 32);
+    font-size: 20px;
+    font-weight: bold;
+}

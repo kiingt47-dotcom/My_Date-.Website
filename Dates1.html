@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head><title>Date"s DATE FIX</title></head>
+<link rel="stylesheet" href="Dates1.css">
+<body>
+<div class="main">
+    <div class="m1">
+    <input type="date" id="date">
+   <img class="teddy" src="E:\DATE WEBSITE\Teddy7.gif">
+    <h1>Thankyou My LOVE For Accepting Date😘</h1>
+    <h2>Now Above lock the date For Our Date.💘</h2>
+    <button type="button" id="continueBtn"> Continue ❤️</button>
+    
+
+<script>
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx-_Yomc8DNj4bR5oa9QR6GuBx2ajtk9x8Be3ia1l7ENbpE_-tg57A63kCmdGaYPuua/exec";
+
+const params = new URLSearchParams(window.location.search);
+const senderID = params.get("sender");
+
+document.getElementById("continueBtn").onclick = function () {
+
+    const selectedDate = document.getElementById("date").value;
+
+    if (!selectedDate) {
+        alert("Please select a date ❤️");
+        return;
+    }
+
+    if (!senderID) {
+        alert("Invalid link ❤️");
+        return;
+    }
+
+    fetch(GOOGLE_SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: JSON.stringify({
+            sender: senderID,
+            date: selectedDate
+        })
+    });
+
+    window.location.href = "Dates2.html";
+};
+</script>
+
+    </div>
+    </div>
+</body>
+</html>
+
+
+

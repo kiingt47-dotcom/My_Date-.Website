@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 50, 90);
+    min-height: 100vh;
+}
+
+.date2-page {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.date2-page h1 {
+    color: white;
+    font-size: 45px;
+    text-shadow:
+        2px 2px 0 rgb(70, 0, 20),
+        -2px -2px 0 rgb(70, 0, 20),
+        2px -2px 0 rgb(70, 0, 20),
+        -2px 2px 0 rgb(70, 0, 20);
+}
+
+.date2-page > h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.couple-gif {
+    margin-top: 25px;
+    height: 250px;
+}
+
+.love-letter {
+    background-color: rgb(255, 218, 224);
+    width: 500px;
+    max-width: 90%;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid rgb(128, 0, 32);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.love-letter h2 {
+    color: rgb(128, 0, 32);
+    margin-bottom: 20px;
+}
+
+.love-letter p {
+    color: rgb(70, 0, 20);
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.signature {
+    margin-top: 25px;
+    font-weight: bold;
+}
